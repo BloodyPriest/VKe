@@ -1,0 +1,17 @@
+{
+  "name": "vkelectron",
+  "version": "1.0.0",
+  "description": "VK on Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "",
+    "build": "electron-packager .VKe"
+  },
+  "author": "it-witcher <bloodypriest@ex.ua>",
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.13.0",
+    "electron-packager": "^8.5.2"
+  }
+}
